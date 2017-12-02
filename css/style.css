@@ -1,0 +1,3904 @@
+* {
+    font: 14px "Roboto";
+    letter-spacing: 3px;
+    transition: all 0.5s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/*Центрирующий блок*/
+
+.centered {
+    text-align: center;
+}
+
+/*Задаем заголовочный шрифт*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway";
+}
+
+h1 {
+    font-size: 70px;
+}
+
+a {
+    transition: all 0.5s ease;
+}
+
+/*Редактируем иконку названия*/
+
+.navbar-brand:hover .fa-superpowers {
+    transform: rotate(360deg);
+}
+
+/*При наведении на ссылку происходит следующее действие*/
+
+.nav > li > a:hover {
+    background-color: #0066FF !important;
+    color: white !important;
+}
+
+/*Скрываем иконку поиска на стандартных расширениях*/
+
+#search {
+    display: none;
+}
+
+/*Назначаем фон*/
+
+#main {
+    height: 520px;
+    background: url(../img/slade_water.jpg) no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+/*Назначаем свойства заголовка для фона*/
+
+#main > h1 {
+    color: white !important;
+    font: 70px "Railway";
+    margin-top: 0px;
+    position: relative;
+    top: 150px;
+}
+
+#main > h2 {
+    position: relative;
+    top: 130px;
+    color: white;
+}
+
+/*Назначаем свойства для кнопка фона*/
+
+#main > button {
+    position: relative;
+    top: 165px;
+}
+
+/*Задаем размер контейнера для элементов */
+
+#main > .nav {
+    width: 400px;
+    margin: 203px 32px;
+}
+
+/*Задаем для элементов параметры*/
+
+#main > .nav > li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main > .nav > li > a {
+    display: block;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 12px;
+}
+
+#main > .nav > li > a:hover {
+    background-color: white !important;
+}
+
+#main > .nav > li > a:hover p {
+    color: black;
+}
+
+#main > .nav > li > a:hover span {
+    color: black;
+}
+
+
+#main > .nav > li > a > p {
+    position: relative;
+    top: -36px;
+    left: 21px;
+    font-size: 10px;
+    color: white;
+}
+
+
+#pickTxt {
+    position: relative;
+    top: -44px;
+    left: 22px;
+    font-size: 12px;
+    color: white;
+}
+
+/*Задаем параметры для иконок кнопок*/
+
+#iconPlayMarket {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    background: url(../img/googlePlay.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -4px;
+}
+
+#iconAppStore {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    background: url(../img/AppleStore.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -6px;
+    left: -3px;
+}
+
+/*Подвинем блок достоинства вниз*/
+
+#features {
+    margin-top: 20px;
+    height: 375px;
+
+}
+
+/*Название блока достоинств*/
+
+#txt-features {
+    color: white;
+}
+
+#txt-features::before {
+    content: "";
+    position: relative;
+    top: 20px;
+    left: 199px;
+    display: block;
+    width: 230px;
+    height: 3px;
+    background-color: #0066FF;
+}
+
+#txt-features::after {
+    content: "";
+    position: relative;
+    top: -15px;
+    left: 739px;
+    display: block;
+    width: 230px;
+    height: 3px;
+    background-color: #0066FF;
+}
+
+#describe {
+    font-size: 11px;
+    color: white;
+}
+
+/*Непосредственно сам контейнер*/
+
+#w {
+    height: 400px;
+    background-image: url(../img/bgFeatures.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: inner 0 0 10px black;
+}
+
+/*Название непосредственного достоинства блока*/
+
+#name_describe {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+/*Сам блок достоинства*/
+
+#block-features {
+    cursor: pointer;
+
+}
+
+#describe-block {
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#img-block1 {
+    position: relative;
+    margin-top: 53px;
+    margin-left: 10px;
+    opacity: 0.99;
+    z-index: 4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#img-block2 {
+    position: relative;
+    margin-top: -152px;
+    margin-left: 154px;
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#name_block {
+    margin-top: 90px;
+}
+
+#aboutBlock {
+    text-align: justify;
+}
+
+
+
+/*Создаем блок с партнерами*/
+
+#partners {
+    height: 500px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+/*Название партнеров*/
+
+#name_partners {}
+
+#myCarousel {
+    background-size: cover;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin-left: 170px;
+}
+
+/*Настройка стрелки слайдера*/
+
+.arrow {
+    position: relative;
+    top: 95px;
+    color: black !important;
+    font-size: 130px !important;
+}
+
+#f {
+    height: 75px;
+}
+
+.breadcrumb {
+    background-color: white !important;
+    margin-top: 12px;
+}
+
+.breadcrumb > li > a {
+    font-size: 11px;
+    transition: all 0.5 ease;
+}
+
+#creat {
+    position: relative;
+    top: 10px;
+    left: 195px;
+    width: 62%;
+}
+
+#creat > li > a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0066FF;
+}
+
+#creat > li > a:hover {
+    opacity: 0.8;
+}
+
+#creat > li > a > .fa {
+    position: relative;
+    top: 11px;
+    left: 1px;
+    color: white
+}
+
+#foot-brand {
+    position: relative;
+    top: 2px;
+    left: -37px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана 1200 - 1372-----------------------------------------*/
+
+@media screen and (min-width:1200px) and (max-width:1372px) {
+    /*Меню с соц.кнопками подвинули*/
+    #creat {
+        position: relative;
+        left: 137px;
+        width: 73%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 992px по 1199-----------------------------------------*/
+
+@media (min-width:992px) and (max-width:1199px) {
+    #main {
+        background-position: 0px 50px;
+    }
+
+    #nav-ref > li > a {
+        font-size: 12px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 95px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 645px;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 70px;
+    }
+
+    .breadcrumb {
+        width: 118%;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 160px;
+        width: 63%;
+    }
+
+    #img1 {
+        position: relative;
+        top: 37px;
+        left: -8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана c 768 px до 991px-----------------------------------------*/
+
+@media (min-width:768px) and (max-width:991px) {
+    #main {
+        background-position: 0px 50px;
+    }
+
+    #nav-ref > li > a {
+        font-size: 11px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #inputSearch {
+        width: 73%;
+        margin-left: -26px;
+    }
+
+    #btn-search {
+        position: relative;
+        top: 0px;
+        left: 1px;
+        margin-left: -71px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 19px;
+        width: 200px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 523px;
+        width: 195px;
+    }
+
+    #img1 {
+        position: relative;
+        top: 80px;
+        left: -52px;
+    }
+
+    #img-block1 {
+        position: relative;
+        top: 34px;
+        left: 58px;
+    }
+
+    #img-block2 {
+        position: relative;
+        top: -27px;
+        left: 1px;
+    }
+
+    #img2 {
+        position: relative;
+        top: 40px;
+        left: -51px;
+    }
+
+    #img3 {
+        position: relative;
+        top: 57px;
+        left: -54px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 110px;
+        left: -49px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: 8px;
+        left: 1px
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: 1px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -61px;
+        left: 1px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: 1px;
+        left: 1px
+    }
+    .siz > img {
+        width: 50% !important;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 0px;
+    }
+
+    .breadcrumb {
+        margin-left: 128px;
+        width: 75%;
+    }
+
+    #creat {
+        position: relative;
+        top: -6px;
+        left: 160px;
+        width: 63%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана минимум 699px, максимум 767px-----------------------------------------*/
+
+@media (min-width:699px) and (max-width:767px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 24px;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 58%;
+        margin-left: 22%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #main {
+        background-position: 1px 69px;
+    }
+
+    #main > h1 {
+        font-size: 70px;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 641px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -3px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 19px;
+        width: 200px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 523px;
+        width: 195px;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    #describe-block {
+        height: 800px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: 40px;
+        left: 34px;
+    }
+
+    #img2 {
+        position: relative;
+        top: 258px;
+        left: 26px;
+    }
+
+    #img3 {
+        position: relative;
+        top: -59px;
+        left: 30px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 243px;
+        left: 30px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: 8px;
+        left: 1px
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -458px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -87px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -590px;
+        left: 1px
+    }
+
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    #partners {
+        height: 415px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 155px;
+        width: 62%;
+    }
+
+}
+
+@media (min-width:699px) and (max-width:740px) {
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 86%;
+    }
+}
+
+@media (min-width:699px) and (max-width:713px) {
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 86%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 676 px до 698 px-----------------------------------------*/
+
+@media (min-width:676px) and (max-width:698px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 24px;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 58%;
+        margin-left: 22%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #describe-block {
+        height: 695px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: 1px 69px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 180px;
+        font-size: 55px;
+    }
+
+
+    #main > h2 {
+        position: relative;
+        top: 172px;
+        color: white;
+        font-size: 26px;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 187px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 243px 32px;
+    }
+
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 86%;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -3px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 19px;
+        width: 200px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 523px;
+        width: 195px;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    #describe-block {
+        height: 740px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: 40px;
+        left: 34px;
+    }
+
+    #img2 {
+        position: relative;
+        top: 300px;
+        left: 26px;
+    }
+
+    #img3 {
+        position: relative;
+        top: 25px;
+        left: 30px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 30px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: 8px;
+        left: 1px
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -375px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -5px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -515px;
+        left: 1px
+    }
+
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    #partners {
+        height: 415px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 138px;
+        width: 62%;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 19px;
+        width: 170px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 473px;
+        width: 160px;
+    }
+}
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 637 px до 675 px-----------------------------------------*/
+
+@media (min-width:637px) and (max-width:675px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 24px;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 58%;
+        margin-left: 22%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #describe-block {
+        height: 695px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: 1px 69px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+
+
+    #main > h2 {
+        position: relative;
+        top: 172px;
+        color: white;
+        font-size: 21px;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 187px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 243px 32px;
+    }
+
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 86%;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -3px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 19px;
+        width: 200px;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 523px;
+        width: 195px;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    #describe-block {
+        height: 740px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: 40px;
+        left: 34px;
+    }
+
+    #img2 {
+        position: relative;
+        top: 300px;
+        left: 26px;
+    }
+
+    #img3 {
+        position: relative;
+        top: -20px;
+        left: 30px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 30px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: 8px;
+        left: 1px
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -375px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -44px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -515px;
+        left: 1px
+    }
+
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    #partners {
+        height: 415px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 138px;
+        width: 62%;
+    }
+
+}
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 550 px до 636 px-----------------------------------------*/
+
+@media (min-width:550px) and (max-width:636px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 24px;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 58%;
+        margin-left: 22%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -114px 54px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+
+
+    #main > h2 {
+        position: relative;
+        top: 172px;
+        color: white;
+        font-size: 21px;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 187px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 243px 32px;
+    }
+
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+    #search {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 83%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 10px;
+        left: 14px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -3px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        width: 25%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 71%;
+        width: 25%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    #describe-block {
+        height: 600px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: -77px;
+        left: -2px;
+    }
+
+    #img2 {
+        position: relative;
+        top: 250px;
+        left: 0px;
+    }
+
+    #img3 {
+        position: relative;
+        top: -125px;
+        left: -2px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 0px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -355px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -116px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -445px;
+        left: 1px
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB2 {
+        margin-left: 23%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB3 {
+        margin-left: 31%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: 30px;
+    }
+    #partners {
+        height: 415px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 138px;
+        width: 62%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+}
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 500 px до 549 px-----------------------------------------*/
+
+@media (min-width:500px) and (max-width:549px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 130%;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 50%;
+        margin-left: 22%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -114px 54px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 180px;
+        font-size: 315%;
+    }
+
+
+    #main > h2 {
+        position: relative;
+        top: 172px;
+        color: white;
+        font-size: 120%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 187px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 243px 32px;
+    }
+
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 80%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 10px;
+        left: 14px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        width: 25%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 71%;
+        width: 25%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: -77px;
+        left: -2px;
+        width: 90%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 250px;
+        left: 0px;
+        width: 90%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -125px;
+        left: -2px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 0px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -323px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -126px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -415px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB2 {
+        margin-left: 23%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB3 {
+        margin-left: 31%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: 16px;
+    }
+    #partners {
+        height: 330px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 18%;
+        width: 62%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -25px;
+        margin-left: 26px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 8px;
+        transition: all 0.5 ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 450px до 499px-----------------------------------------*/
+
+@media (min-width:426px) and (max-width:499px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 130%;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #name_describe {
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+    }
+
+    #describe {
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -218px 55px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 180px;
+        font-size: 265%;
+    }
+
+    #pickTxt {
+        position: relative;
+        top: -39px;
+        left: 17px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+    }
+
+
+
+    #main > .nav > li > a > p {
+        position: relative;
+        top: -27px;
+        left: 17px;
+        font-size: 8px;
+        color: white;
+    }
+
+
+
+    #main > h2 {
+        position: relative;
+        top: 172px;
+        color: white;
+        font-size: 100%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 187px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 243px 32px;
+    }
+
+    #main > .nav > li > a {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+
+    #iconPlayMarket {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/googlePlay.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        left: -3px;
+    }
+
+    #iconAppStore {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/AppleStore.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -5px;
+        left: -3px;
+    }
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 78%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 10px;
+        left: 9px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        width: 20%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 77%;
+        width: 20%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+
+    .xsiz1 {
+        position: relative;
+        top: -195px;
+        left: 164px;
+    }
+
+    .xsiz2 {
+        position: relative;
+        top: 8px;
+        left: -79px;
+    }
+
+    .xsiz3 {
+        position: relative;
+        top: 7px;
+        left: -52px;
+    }
+
+    .xsiz4 {
+        position: relative;
+        top: 8px;
+        left: -31px;
+    }
+
+    .xsiz1 > img {
+        width: 100% !important;
+    }
+
+    .xsiz2 > img {
+        width: 100% !important;
+    }
+
+    .xsiz3 > img {
+        width: 100% !important;
+    }
+
+    .xsiz4 > img {
+        width: 100% !important;
+    }
+
+
+    #txt-features {
+        color: white;
+        margin-top: 170px;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: -77px;
+        left: -2px;
+        width: 90%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 250px;
+        left: 0px;
+        width: 90%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -125px;
+        left: -2px;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 0px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -323px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -124px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -370px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB2 {
+        margin-left: 15%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB3 {
+        margin-left: 25%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: 4px;
+    }
+    #partners {
+        height: 330px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 12%;
+        width: 77%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -25px;
+        margin-left: 12px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 7px;
+        transition: all 0.5 ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 426px до 449px-----------------------------------------*/
+
+@media (min-width:426px) and (max-width:449px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 130%;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #name_describe {
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+    }
+
+    #describe {
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -218px 55px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 210px;
+        font-size: 265%;
+    }
+
+    #pickTxt {
+        position: relative;
+        top: -39px;
+        left: 17px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+    }
+
+
+
+    #main > .nav > li > a > p {
+        position: relative;
+        top: -27px;
+        left: 17px;
+        font-size: 8px;
+        color: white;
+    }
+
+
+
+    #main > h2 {
+        position: relative;
+        top: 200px;
+        color: white;
+        font-size: 100%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 221px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 295px 11px;
+    }
+
+    #main > .nav > li > a {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+
+    #iconPlayMarket {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/googlePlay.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        left: -3px;
+    }
+
+    #iconAppStore {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/AppleStore.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -5px;
+        left: -3px;
+    }
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 78%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 25px;
+        left: 9px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        width: 20%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 77%;
+        width: 20%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+
+    .xsiz1 {
+        position: relative;
+        top: -195px;
+        left: 154px;
+    }
+
+    .xsiz2 {
+        position: relative;
+        top: 8px;
+        left: -79px;
+    }
+
+    .xsiz3 {
+        position: relative;
+        top: 7px;
+        left: -52px;
+    }
+
+    .xsiz4 {
+        position: relative;
+        top: 8px;
+        left: -31px;
+    }
+
+    .xsiz1 > img {
+        width: 100% !important;
+    }
+
+    .xsiz2 > img {
+        width: 100% !important;
+    }
+
+    .xsiz3 > img {
+        width: 100% !important;
+    }
+
+    .xsiz4 > img {
+        width: 100% !important;
+    }
+
+
+    #txt-features {
+        color: white;
+        margin-top: 170px;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    #img1 {
+        position: relative;
+        top: -77px;
+        left: -2px;
+        width: 90%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 250px;
+        left: -7px;
+        width: 90%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -125px;
+        left: -17px;
+        width: 95%;
+        ;
+    }
+
+    #img4 {
+        position: relative;
+        top: 255px;
+        left: 0px;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -283px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -140px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -370px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB2 {
+        margin-left: 15%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB3 {
+        margin-left: 25%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: 4px;
+    }
+    #partners {
+        height: 330px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 12%;
+        width: 77%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -25px;
+        margin-left: 12px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 7px;
+        transition: all 0.5 ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 425px до 376px-----------------------------------------*/
+
+@media (min-width:376px) and (max-width:425px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 130%;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 43%;
+        margin-left: 29%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #name_describe {
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+        width: 183%;
+        /* left: -2px; */
+        margin-left: -2px;
+    }
+
+    #describe {
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -218px 55px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 210px;
+        font-size: 230%;
+    }
+
+    #pickTxt {
+        position: relative;
+        top: -39px;
+        left: 17px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+    }
+
+
+
+    #main > .nav > li > a > p {
+        position: relative;
+        top: -27px;
+        left: 17px;
+        font-size: 8px;
+        color: white;
+    }
+
+
+
+    #main > h2 {
+        position: relative;
+        top: 200px;
+        color: white;
+        font-size: 80%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 221px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 70% 2%;
+    }
+
+    #main > .nav > li > a {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+
+    #iconPlayMarket {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/googlePlay.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        left: -3px;
+    }
+
+    #iconAppStore {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/AppleStore.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -5px;
+        left: -3px;
+    }
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 75%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 25px;
+        left: 9px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features > h2 {
+        font-size: 23px;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        top: 18px;
+        width: 16%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 80%;
+        width: 16%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+
+    .xsiz1 {
+        position: relative;
+        top: -205px;
+        left: 125px;
+    }
+
+    .xsiz2 {
+        position: relative;
+        top: 8px;
+        left: -97px;
+    }
+
+    .xsiz3 {
+        position: relative;
+        top: 7px;
+        left: -61px;
+    }
+
+    .xsiz4 {
+        position: relative;
+        top: 8px;
+        left: -31px;
+    }
+
+    .xsiz1 > img {
+        width: 160% !important;
+    }
+
+    .xsiz2 > img {
+        width: 160% !important;
+    }
+
+    .xsiz3 > img {
+        width: 160% !important;
+    }
+
+    .xsiz4 > img {
+        width: 160% !important;
+    }
+
+
+    #txt-features {
+        color: white;
+        margin-top: 170px;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    .namePosition1 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .namePosition2 {
+        position: relative;
+        top: 26px;
+        left: 1px;
+    }
+
+    .namePosition3 {
+        position: relative;
+        top: -22px;
+        left: 1px;
+    }
+
+    .namePosition4 {
+        position: relative;
+        top: 147px;
+        left: 1px;
+    }
+
+    .par_text1 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text2 {
+        position: relative;
+        top: 35px;
+        left: 1px;
+    }
+
+    .par_text3 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text4 {
+        position: relative;
+        top: 152px;
+        left: 12px;
+    }
+
+    #img1 {
+        position: relative;
+        top: -43px;
+        left: -2px;
+        width: 79%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 315px;
+        left: -7px;
+        width: 82%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -58px;
+        left: -8px;
+        width: 82%;
+    }
+
+    #img4 {
+        position: relative;
+        top: 360px;
+        left: 0px;
+        width: 80%;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -236px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -96px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -370px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .refB2 {
+        margin-left: 14%;
+        position: relative;
+        top: 37px;
+        left: 1px;
+    }
+
+    .refB3 {
+        margin-left: 16%;
+        position: relative;
+        top: 1px;
+        left: 15px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 166px;
+        left: -33px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: -13px;
+    }
+    #partners {
+        height: 257px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 12%;
+        width: 77%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -41px;
+        margin-left: 0px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 7px;
+        transition: all 0.5 ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана от 326px до 375px-----------------------------------------*/
+
+@media (min-width:326px) and (max-width:375px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: 1px;
+        font-size: 130%;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 43%;
+        margin-left: 29%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #name_describe {
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+        width: 183%;
+        /* left: -2px; */
+        margin-left: -2px;
+    }
+
+    #describe {
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -218px 55px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 210px;
+        font-size: 230%;
+    }
+
+    #pickTxt {
+        position: relative;
+        top: -39px;
+        left: 17px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+    }
+
+
+
+    #main > .nav > li > a > p {
+        position: relative;
+        top: -27px;
+        left: 17px;
+        font-size: 8px;
+        color: white;
+    }
+
+
+
+    #main > h2 {
+        position: relative;
+        top: 200px;
+        color: white;
+        font-size: 80%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 221px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 78% -4%;
+    }
+
+    #main > .nav > li > a {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+
+    #iconPlayMarket {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/googlePlay.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        left: -3px;
+    }
+
+    #iconAppStore {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/AppleStore.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -5px;
+        left: -3px;
+    }
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 75%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 25px;
+        left: 9px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features {
+        font-size: 23px !important;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        top: 13px;
+        width: 16%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 80%;
+        width: 16%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+
+    .xsiz1 {
+        position: relative;
+        top: -205px;
+        left: 125px;
+    }
+
+    .xsiz2 {
+        position: relative;
+        top: 8px;
+        left: -97px;
+    }
+
+    .xsiz3 {
+        position: relative;
+        top: 7px;
+        left: -61px;
+    }
+
+    .xsiz4 {
+        position: relative;
+        top: 8px;
+        left: -31px;
+    }
+
+    .xsiz1 > img {
+        width: 160% !important;
+    }
+
+    .xsiz2 > img {
+        width: 160% !important;
+    }
+
+    .xsiz3 > img {
+        width: 160% !important;
+    }
+
+    .xsiz4 > img {
+        width: 160% !important;
+    }
+
+
+    #txt-features {
+        color: white;
+        margin-top: 170px;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    .namePosition1 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .namePosition2 {
+        position: relative;
+        top: 26px;
+        left: 1px;
+    }
+
+    .namePosition3 {
+        position: relative;
+        top: -22px;
+        left: 15px;
+    }
+
+    .namePosition4 {
+        position: relative;
+        top: 147px;
+        left: 1px;
+    }
+
+    .par_text1 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text2 {
+        position: relative;
+        top: 35px;
+        left: 1px;
+    }
+
+    .par_text3 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text4 {
+        position: relative;
+        top: 152px;
+        left: 12px;
+    }
+
+    #img1 {
+        position: relative;
+        top: -43px;
+        left: -2px;
+        width: 79%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 315px;
+        left: -7px;
+        width: 82%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -58px;
+        left: -8px;
+        width: 82%;
+    }
+
+    #img4 {
+        position: relative;
+        top: 360px;
+        left: 0px;
+        width: 80%;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -236px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -96px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -370px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: -12px;
+    }
+
+    .refB2 {
+        margin-left: 14%;
+        position: relative;
+        top: 37px;
+        left: -17px;
+    }
+
+    .refB3 {
+        margin-left: 16%;
+        position: relative;
+        top: 1px;
+        left: 6px;
+    }
+
+    .refB4 {
+        margin-left: 33%;
+        position: relative;
+        top: 166px;
+        left: -33px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 28px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: -13px;
+    }
+    #partners {
+        height: 257px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: 10px;
+        left: 12%;
+        width: 77%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -41px;
+        margin-left: 0px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 7px;
+        transition: all 0.5 ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Стили для разрешения экрана 325px-----------------------------------------*/
+
+@media (max-width:320px) {
+    #label-top-navbar {
+        position: relative;
+        top: -6px;
+        left: -6px;
+        font-size: 115%;
+        font-weight: bold;
+    }
+    #inputSearch {
+        position: relative;
+        top: -48px;
+        width: 43%;
+        margin-left: 29%;
+    }
+    #btn-search {
+        position: relative;
+        top: -43px;
+        left: 35px;
+        display: none;
+    }
+
+    #name_describe {
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+        width: 183%;
+        /* left: -2px; */
+        margin-left: -2px;
+    }
+
+    #img-block1 {
+        position: relative;
+        margin-top: 63px;
+        margin-left: 10px;
+        opacity: 0.99;
+        z-index: 4;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+
+    #img-block2 {
+        position: relative;
+        margin-top: -151px;
+        margin-left: 110px;
+        opacity: 0.5;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    #describe {
+        display: none;
+    }
+
+    #describe-block {
+        height: 740px;
+        width: 100%;
+        /* left: 27px; */
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    #main {
+        background-position: -313px 55px;
+    }
+
+    #main > h1 {
+        color: white !important;
+        font: 70px "Railway";
+        margin-top: 0px;
+        position: relative;
+        top: 210px;
+        font-size: 185%;
+    }
+
+    #pickTxt {
+        position: relative;
+        top: -39px;
+        left: 17px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+    }
+
+
+
+    #main > .nav > li > a > p {
+        position: relative;
+        top: -27px;
+        left: 17px;
+        font-size: 8px;
+        color: white;
+    }
+
+
+
+    #main > h2 {
+        position: relative;
+        top: 200px;
+        color: white;
+        font-size: 58%;
+    }
+
+
+    #main > button {
+        position: relative;
+        top: 221px;
+    }
+
+
+
+    #main > .nav {
+        width: 400px;
+        margin: 92% -15%;
+    }
+
+    #main > .nav > li > a {
+        display: block;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 12px;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        height: 56px;
+    }
+
+
+
+
+    #iconPlayMarket {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/googlePlay.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -3px;
+        left: -3px;
+    }
+
+
+
+
+    #iconAppStore {
+        background-color: white;
+        width: 23px;
+        height: 23px;
+        background: url(../img/AppleStore.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -5px;
+        left: -3px;
+    }
+
+    #search {
+        display: block;
+        position: relative;
+        top: 25px;
+        left: 74%;
+    }
+
+    .nameBl {
+        position: relative;
+        top: 25px;
+        left: 9px;
+        width: 103%;
+        text-align: center;
+        font-size: 30px;
+        height: 92px;
+    }
+
+    #search:hover {
+        color: #0066FF;
+    }
+
+    #form-bg {
+        height: 0px;
+        padding: 0px;
+        margin: -1px;
+        border-color: rgb(251, 251, 251);
+    }
+
+    #search:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #btn-collapse {
+        position: relative;
+        top: -7px;
+        left: 8px;
+    }
+
+    #header-nav {
+        height: 40px;
+    }
+
+    #txt-features {
+        font-size: 23px !important;
+    }
+
+    #txt-features::before {
+        position: relative;
+        left: 4%;
+        top: 13px;
+        width: 16%;
+    }
+
+    #txt-features::after {
+        position: relative;
+        left: 80%;
+        width: 16%;
+    }
+
+    .siz > img {
+        width: 50% !important;
+    }
+
+
+    .xsiz1 {
+        position: relative;
+        top: -193px;
+        left: 100px;
+
+    }
+
+    .xsiz2 {
+        position: relative;
+        top: 8px;
+        left: -75px;
+    }
+
+    .xsiz3 {
+        position: relative;
+        top: 7px;
+        left: -53px;
+    }
+
+    .xsiz4 {
+        position: relative;
+        top: 8px;
+        left: -31px;
+    }
+
+    .xsiz1 > img {
+        width: 160% !important;
+    }
+
+    .xsiz2 > img {
+        width: 160% !important;
+    }
+
+    .xsiz3 > img {
+        width: 160% !important;
+    }
+
+    .xsiz4 > img {
+        width: 160% !important;
+    }
+
+
+    #txt-features {
+        color: white;
+        margin-top: 170px;
+    }
+
+    #describe-block {
+        height: 550px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+
+    .namePosition1 {
+        position: relative;
+        top: 29px;
+        left: 1px;
+    }
+
+    .namePosition2 {
+        position: relative;
+        top: 62px;
+        left: 1px;
+    }
+
+    .namePosition3 {
+        position: relative;
+        top: -22px;
+        left: 15px;
+    }
+
+    .namePosition4 {
+        position: relative;
+        top: 189px;
+        left: 9px;
+    }
+
+    .par_text1 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text2 {
+        position: relative;
+        top: 35px;
+        left: 1px;
+    }
+
+    .par_text3 {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .par_text4 {
+        position: relative;
+        top: 185px;
+        left: 12px;
+    }
+
+    #img1 {
+        position: relative;
+        top: -43px;
+        left: -2px;
+        width: 79%;
+    }
+
+    #img2 {
+        position: relative;
+        top: 318px;
+        left: 0px;
+        width: 79%;
+    }
+
+    #img3 {
+        position: relative;
+        top: -58px;
+        left: 6px;
+        width: 82%;
+    }
+
+    #img4 {
+        position: relative;
+        top: 380px;
+        left: 0px;
+        width: 80%;
+    }
+
+    #txt-img1 {
+        position: relative;
+        top: -70px;
+        left: 9px;
+        width: 94%;
+    }
+
+    #txt-img2 {
+        position: relative;
+        top: -236px;
+        left: 1px
+    }
+
+    #txt-img3 {
+        position: relative;
+        top: -96px;
+        left: 1px;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 29px;
+    }
+
+    #txt-img4 {
+        position: relative;
+        top: -370px;
+        left: -16px;
+    }
+
+    .refBl {
+        margin-left: 40%;
+        position: relative;
+        top: 1px;
+        left: -17px;
+    }
+
+    .refB2 {
+        margin-left: -16%;
+        margin-right: 67%;
+        position: relative;
+        top: 37px;
+        text-align: center;
+        left: 92px;
+    }
+
+    .refB3 {
+        margin-left: 16%;
+        position: relative;
+        top: 1px;
+        left: -12px;
+    }
+
+    .refB4 {
+        margin-left: 23%;
+        position: relative;
+        top: 193px;
+        left: -13px;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin-left: 15px;
+        margin-top: 14px;
+        width: 90%;
+    }
+    .arrow {
+        top: -22px;
+    }
+    #partners {
+        height: 215px;
+        margin-top: 90px;
+        cursor: pointer;
+    }
+
+    #creat {
+        position: relative;
+        top: -10px;
+        left: 6%;
+        width: 92%;
+    }
+
+    #aboutBlock {
+        text-align: center;
+        margin-top: -41px;
+        margin-left: 0px;
+    }
+
+    #name_block {
+        margin-top: 115px;
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    #txt-img3 > #name_block {
+        font-size: 21px;
+        margin-left: -16px;
+    }
+
+    #name_partners {
+        position: relative;
+        top: -35px;
+        font-size: 25px;
+    }
+
+    #block-features {
+        cursor: pointer;
+        margin-top: -30px;
+    }
+
+    .breadcrumb > li > a {
+        font-size: 7px;
+        transition: all 0.5 ease;
+    }
+}

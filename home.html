@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sigliton</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="library/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" id="navbar-tool">
+        <div class="container">
+            <div class="navbar-header" >
+				<div><i class="fa fa-search fa-lg" id="search"></i></div>
+                <button type="button" id="btn-collapse" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a href="#" class="navbar-brand" id="label-top-navbar">Siglit<i style="color:#0066FF" class="fa fa-superpowers"></i>n</a>
+            </div>
+            <!--------------------------Блок поиска----------------------------------->
+            <form class="navbar-form navbar-left" id="form-bg">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputSearch">
+                </div>
+                <button type="button" class="btn btn-primary" id="btn-search">Search</button>
+            </form>
+            <!-------------------Создаем появлющийся при клике блок------------------------------->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" id="nav-ref">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Share of goods</a></li>
+                    <li><a href="#">Training programs</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!------------------------Создаем блок для основного контента------------------------>
+    <div class="container">
+        <div class="row centered" id="main">
+                <h1>Welcome to Siglit<i class="fa fa-superpowers" style="color:#0066FF"></i>n</h1>
+                <h2>This website for people,do sport every day</h2>
+                <button class="btn btn-primary btn-lg">Learn more</button>
+                <ul class="nav">
+                    <li>
+                        <a href="#">
+                            <div id="iconPlayMarket"></div>
+                            <p>Download on</p>
+                            <span id="pickTxt">Google play</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div id="iconAppStore"></div>
+                            <p>Download on</p>
+                            <span id="pickTxt">AppStore</span>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <!---------------------------------Создаем блок для оценки достоинств---------------------------->
+    <div id="features">
+        <div class="container" id="w">
+            <div class="row centered">
+                <h2 id="txt-features">Our features</h2>
+                <br><br>
+                <div class="col-xs-3 col-sm-3 col-md-3 siz xsiz1" id="block-features">
+                    <img src="img/heart.png" alt="">
+                    <h4 id="name_describe">Vita Training Programs </h4>
+                    <p id="describe">Each training is aimed only at specific areas of your body, which affects its tone and immunity</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 siz xsiz2" id="block-features">
+                    <img src="img/music.png" alt="">
+                    <h4 id="name_describe">Pocket music</h4>
+                    <p id="describe">Listen to music for free in the background during workouts, music becomes available after entering the Workout mode</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 xsiz3" id="block-features">
+                    <img src="img/workout.png" width="50%" alt="">
+                    <h4 id="name_describe">Online base of training</h4>
+                    <p id="describe">More than 1000 programs for your workout, the application will automatically select the program for you based on your state</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 xsiz4" id="block-features">
+                    <img src="img/support.png" width="50%" alt="">
+                    <h4 id="name_describe">Compare results</h4>
+                    <p id="describe">Get a sport diary and the app will record your progress after each workout. You must do your day more effective</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------Создаем блок описание--------------------------------------------->
+
+    <div id="describe-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6" id="txt-img1">
+                    <h2 id="name_block" class="nameBl namePosition1">Vita training for you</h2>
+                    <p id="aboutBlock" class="par_text1">Vitus training mode allows you to increase your metabolism and strengthen your immune system by affecting the creation of muscle tissue. With an increase in creatine loads, kreatin is released, which increases the internal strength and tone of the tissue, and also accelerates the regeneration of external damages</p>
+                    <a href="#" class="refBl">Learn more</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6" id="img1">
+                    <img src="img/vita1.jpg" alt="" class="img-responsive img-rounded image11" id="img-block1" height="90%" width="70%">
+                    <img src="img/vita2.jpg" alt="" class="img-responsive img-rounded image21" id="img-block2" height="90%" width="70%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="describe-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6" id="img2">
+                    <img src="img/music2.jpg" alt="" class="img-responsive img-rounded image12" id="img-block1" height="90%" width="70%">
+                    <img src="img/music1.jpg" alt="" class="img-responsive img-rounded image22" id="img-block2" height="90%" width="70%">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6" id="txt-img2">
+                    <h2 id="name_block" class="nameBl namePosition2">Music in your pocket</h2>
+                    <p id="aboutBlock" class="par_text2">Upload your audio recordings, adjust your training to a certain audio track and listen to it for free in the background. This mode is activated during the activation of your workout.More than 1000 tracks of your favorite artists will always be at hand and fill your training with emotions and help to take a definitely new level.</p>
+                    <a href="#" class="refB2">Create a list of audio recordings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="describe-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6" id="txt-img3">
+                    <h2 id="name_block" class="nameBl namePosition3">Online database of more than 1000 programs</h2>
+                    <p id="aboutBlock" class="par_text3">Our site contains a database of more than 1000 programs you need to start, as well as to support you at a certain level of development. Each program has an individual character and we will customize it for you and we will suggest the most suitable ones from your list under your choice. You should not look for a bunch of unnecessary programs for you, at the expense of your questionnaire.</p>
+                    <a href="#" class="refB3">Get to know your program</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6" id="img3">
+                    <img src="img/train1.png" alt="" class="img-responsive img-rounded image13" id="img-block1" height="90%" width="60%">
+                    <img src="img/train2.jpg" alt="" class="img-responsive img-rounded image23" id="img-block2" height="90%" width="70%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="describe-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6" id="img4">
+                    <img src="img/compare2.jpg" alt="" class="img-responsive img-rounded image14" id="img-block1" height="90%" width="70%">
+                    <img src="img/compare1.jpg" alt="" class="img-responsive img-rounded image24" id="img-block2" height="90%" width="70%">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6" id="txt-img4">
+                    <h2 id="name_block" class="nameBl namePosition4">Analysis of your progressive trends</h2>
+                    <p id="aboutBlock" class="par_text4">Compare your skills with every day, months, year with our system. The system of counting correlates your loss of calories, the load on each workout and gives you a detailed account of what state you are in, your indicators have improved or deteriorated. Align the indicator lines to always be in a stable form or increase the level of the load.</p>
+                    <a href="#" class="refB4">Open the analysis scale</a>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--Создаем блок с каруселью для отображения партнеров-->
+    <div class="container" id="partners">
+        <div class="row centered">
+            <h2 id="name_partners">We cooperate with</h2>
+            <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide">
+					<!--Индикатор карусели-->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<!--Внутреннее содержимое карусели-->
+					<div class="carousel-inner">
+					
+						
+						<div class="item active">
+							<img src="img/firm3.jpg">
+						</div>
+						
+						<div class="item">
+							<img src="img/firm4.jpg">
+						</div>
+						
+						<div class="item">
+							<img src="img/firm5.jpg">
+						</div>
+						
+						<div class="item">
+							<img src="img/firm6.jpg">
+						</div>
+						
+						
+					</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev" >
+					<span class="arrow" id="arrow-left">&lsaquo;</span>
+					</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next" >
+					<span class="arrow" id="arrow-right">&rsaquo;</span>
+					</a>
+				</div>
+            </div>
+            
+        </div>
+    </div>
+	<!--Делаем подвал сайта-->
+	<div class="container-fluid" id="f">
+		<hr>
+		<div class="row centered">
+			<div class="col-md-6">
+				<ol class="breadcrumb">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Share of goods</a></li>
+					<li><a href="#">Training programs</a></li>
+					<li><a href="#">About us</a></li>
+				</ol>
+			</div>
+			<div class="col-md-6"> 
+			<ul class="list-inline" id="creat">
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-telegram"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa fa-vk"></i></a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
